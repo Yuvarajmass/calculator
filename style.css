@@ -44,6 +44,20 @@
   background-color: rgb(16, 16, 189);
  
 }
+@media screen and (max-width:780px) {
+  .calculator{
+    width: 90vw;
+    padding: 5px;
+    height: 85vh;
+  } 
+  .calculator >.form-group >input{
+    font-size: 25px;
+  }
+  .calculator>.form-group >button{
+    font-size: 18px;
+  }
+}
+
 @media screen and (max-width:420px) {
   .calculator{
     width: 85vw;
@@ -57,3 +71,4 @@
     font-size: 16px;
   }
 }
+
